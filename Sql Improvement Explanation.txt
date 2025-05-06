@@ -1,0 +1,2 @@
+1. Moved the publish_status and deleted checks to the beginning of the WHERE clause for faster filtering
+2. Add indexing to the all join table, Jobs.publish_status, Jobs.deleted & Jobs.sort_order
